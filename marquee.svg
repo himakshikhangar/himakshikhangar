@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-labelledby="marqueeTitle">
+  <title id="marqueeTitle">Scrolling technology marquee</title>
+
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="7%" stop-color="#FFFFFF"/>
+      <stop offset="93%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="fadeMask">
+      <rect width="1200" height="110" fill="url(#fade)"/>
+    </mask>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C4B5FD" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </linearGradient>
+
+    <g id="c1">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#F89820"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.8" fill="#E9D5FF">JAVA</text>
+    </g>
+    <g id="c2">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#3776AB"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.8" fill="#E9D5FF">PYTHON</text>
+    </g>
+    <g id="c3">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#E34F26"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.8" fill="#E9D5FF">HTML</text>
+    </g>
+    <g id="c4">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#1572B6"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.8" fill="#E9D5FF">CSS</text>
+    </g>
+    <g id="c5">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#F7DF1E"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.4" fill="#E9D5FF">JAVASCRIPT</text>
+    </g>
+    <g id="c6">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#A855F7"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.6" fill="#E9D5FF">ROBOTICS</text>
+    </g>
+    <g id="c7">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#F472B6"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.8" fill="#E9D5FF">AI</text>
+    </g>
+    <g id="c8">
+      <rect width="130" height="44" rx="12" fill="#0F0A1F" stroke="#3B1E6E"/>
+      <rect x="1" y="1" width="128" height="42" rx="11" fill="none" stroke="#A78BFA" stroke-opacity=".1"/>
+      <circle cx="16" cy="22" r="3.4" fill="#C084FC"/>
+      <text x="30" y="27.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.4" fill="#E9D5FF">AUTOMATION</text>
+    </g>
+  </defs>
+
+  <line x1="0" y1="18" x2="1200" y2="18" stroke="url(#rule)" stroke-width="1" opacity=".35"/>
+  <line x1="0" y1="92" x2="1200" y2="92" stroke="url(#rule)" stroke-width="1" opacity=".35"/>
+
+  <g mask="url(#fadeMask)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="30s" repeatCount="indefinite"/>
+      <g>
+        <use href="#c1" x="20" y="33"/>
+        <use href="#c2" x="170" y="33"/>
+        <use href="#c3" x="320" y="33"/>
+        <use href="#c4" x="470" y="33"/>
+        <use href="#c5" x="620" y="33"/>
+        <use href="#c6" x="770" y="33"/>
+        <use href="#c7" x="920" y="33"/>
+        <use href="#c8" x="1070" y="33"/>
+      </g>
+      <g transform="translate(1200 0)">
+        <use href="#c1" x="20" y="33"/>
+        <use href="#c2" x="170" y="33"/>
+        <use href="#c3" x="320" y="33"/>
+        <use href="#c4" x="470" y="33"/>
+        <use href="#c5" x="620" y="33"/>
+        <use href="#c6" x="770" y="33"/>
+        <use href="#c7" x="920" y="33"/>
+        <use href="#c8" x="1070" y="33"/>
+      </g>
+    </g>
+  </g>
+</svg>
